@@ -368,38 +368,7 @@
       border-top: 3px solid var(--ink);
     }
 
-    .support-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: .93rem;
-    }
 
-    .support-table th {
-      background: var(--ink);
-      color: var(--white);
-      padding: 14px 20px;
-      text-align: left;
-      font-family: 'Noto Sans KR', sans-serif;
-      font-size: .85rem;
-      letter-spacing: .04em;
-      font-weight: 600;
-    }
-
-    .support-table td {
-      padding: 16px 20px;
-      border-bottom: 1px solid var(--border);
-      vertical-align: top;
-    }
-
-    .support-table tr:hover td {
-      background: #f9f7f3;
-    }
-
-    .highlight-amount {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.5rem;
-      color: var(--accent);
-    }
 
     .support-cards {
       display: grid;
@@ -1001,7 +970,7 @@
   <div class="overview-grid reveal">
     <div class="overview-item" data-num="01">
       <div class="ov-label">프로그램명</div>
-      <div class="ov-value">AI 기반 의료데이터 분석 및 AX 실무형 <br><strong>여름계절학기 단기인턴십</strong></div>
+      <div class="ov-value">AI 기반 의료데이터 분석 및<br><strong>AX 실무형 여름계절학기 단기인턴십</strong></div>
     </div>
     <div class="overview-item" data-num="02">
       <div class="ov-label">참여기관</div>
@@ -1009,7 +978,7 @@
     </div>
     <div class="overview-item" data-num="03">
       <div class="ov-label">교육 대상</div>
-      <div class="ov-value"><br><strong>정보컴퓨터공학부 · 의생명융합공학부 데이터사이언스전공 재학생</strong></div>
+      <div class="ov-value"><strong>정보컴퓨터공학부 · 의생명융합공학부 데이터사이언스전공 재학생</strong></div>
     </div>
     <div class="overview-item" data-num="04">
       <div class="ov-label">모집 인원</div>
@@ -1127,8 +1096,8 @@
   <div class="support-cards reveal">
 
     <!-- 세로 구분선 (grid-column 명시) -->
-    <div class="sc-divider-col" style="grid-column:2; grid-row:1/999;"></div>
-    <div class="sc-divider-col" style="grid-column:4; grid-row:1/999;"></div>
+    <div class="sc-divider-col" style="grid-column:2; grid-row:1/-1;"></div>
+    <div class="sc-divider-col" style="grid-column:4; grid-row:1/-1;"></div>
 
     <!-- 레이블 행 -->
     <div class="sc-cell sc-header-left  sc-label sc-label-left"  style="grid-column:1;">참여 학생 실습지원비</div>
@@ -1137,7 +1106,7 @@
 
     <!-- 메인 타이틀 행 -->
     <div class="sc-cell sc-main-left"  style="grid-column:1;">55만원</div>
-    <div class="sc-cell sc-main-mid"   style="grid-column:3;">AI 활용 데이터 분석<br>특강 제공</div>
+    <div class="sc-cell sc-main-mid"   style="grid-column:3;">AI 활용<br>데이터 분석<br>특강 제공</div>
     <div class="sc-cell sc-main-right" style="grid-column:5;">마일리지<br>부여</div>
 
     <!-- 서브 설명 행 -->
@@ -1153,17 +1122,17 @@
     <!-- 리스트 항목 행 2 -->
     <div class="sc-item sc-item-left"  style="grid-column:1;">시설이용료 1인당 4만원 포함</div>
     <div class="sc-item sc-item-mid"   style="grid-column:3;">ChatGPT · Claude 활용 보고서 자동화</div>
-    <div class="sc-item sc-item-right" style="grid-column:5;">비교과 마일리지 15점</div>
+    <div class="sc-item sc-item-right sc-item-last" style="grid-column:5;">비교과 마일리지 15점</div>
 
     <!-- 리스트 항목 행 3 -->
-    <div class="sc-item sc-item-left"  style="grid-column:1;">총 실습 기간 10일, 80시간</div>
-    <div class="sc-item sc-item-mid"   style="grid-column:3;">AI 기반 시각화 도구 실습</div>
-    <div class="sc-item sc-item-right" style="grid-column:5; visibility:hidden;">-</div>
+    <div class="sc-item sc-item-left sc-item-last" style="grid-column:1;">총 실습 기간 10일, 80시간</div>
+    <div class="sc-item sc-item-mid"               style="grid-column:3;">AI 기반 시각화 도구 실습</div>
+    <div style="grid-column:5;"></div>
 
     <!-- 리스트 항목 행 4 -->
-    <div class="sc-item sc-item-left  sc-item-last" style="grid-column:1; visibility:hidden;">-</div>
-    <div class="sc-item sc-item-mid   sc-item-last" style="grid-column:3;">인턴십 프로젝트에 즉시 활용 가능</div>
-    <div class="sc-item sc-item-right sc-item-last" style="grid-column:5; visibility:hidden;">-</div>
+    <div style="grid-column:1;"></div>
+    <div class="sc-item sc-item-mid sc-item-last" style="grid-column:3;">인턴십 프로젝트에 즉시 활용 가능</div>
+    <div style="grid-column:5;"></div>
 
   </div>
 </section>
@@ -1220,7 +1189,7 @@
           <option value="">선택하세요</option>
           <option>정보컴퓨터공학부</option>
           <option>의생명융합공학부 데이터사이언스전공</option>
-                  </select>
+        </select>
         <span class="field-error-msg">학과/전공을 선택해주세요.</span>
       </div>
       <div class="field" id="field-grade">
