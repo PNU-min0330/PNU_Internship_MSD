@@ -5,7 +5,7 @@
 기업체험형 단기인턴십 신청 웹페이지 + Google Apps Script 백엔드
 
 -----
-
+## 신청사이트 https://pnu-min0330.github.io/PNU_Internship_MSD/
 ## 프로그램 개요
 
 |항목   |내용                                                |
