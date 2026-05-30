@@ -3,9 +3,8 @@
 
 **부산대학교 AI융합교육원 × 부산대학교병원 의학통계부**  
 기업체험형 단기인턴십 신청 웹페이지 + Google Apps Script 백엔드
+신청사이트 https://pnu-min0330.github.io/PNU_Internship_MSD
 
------
-** 신청사이트 https://pnu-min0330.github.io/PNU_Internship_MSD/**
 -----
 
 ## 프로그램 개요
