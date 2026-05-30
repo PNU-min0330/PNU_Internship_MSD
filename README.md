@@ -6,6 +6,8 @@
 
 -----
 ** 신청사이트 https://pnu-min0330.github.io/PNU_Internship_MSD/
+-----
+
 ## 프로그램 개요
 
 |항목   |내용                                                |
